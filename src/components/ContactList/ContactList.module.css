@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  padding: 4px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color:red;
+  color: #fff;
+}
